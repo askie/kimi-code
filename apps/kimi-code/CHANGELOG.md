@@ -1,5 +1,15 @@
 # @moonshot-ai/kimi-code
 
+## 0.26.1
+
+### Patch Changes
+
+- [#1788](https://github.com/MoonshotAI/kimi-code/pull/1788) [`365ba00`](https://github.com/MoonshotAI/kimi-code/commit/365ba0001de206863ff1de8e106c85d7f187c192) Thanks [@RealKai42](https://github.com/RealKai42)! - Fix `/export-debug-zip` and `kimi export` overwriting the previous ZIP archive when run repeatedly on the same session; the default export filename now includes a timestamp.
+
+- [#1790](https://github.com/MoonshotAI/kimi-code/pull/1790) [`373abb0`](https://github.com/MoonshotAI/kimi-code/commit/373abb02f03ef817e2e1937e1cdc4423ef0cd149) Thanks [@RealKai42](https://github.com/RealKai42)! - Fix repeated request rejections after an interrupted model response by recording tool calls that never ran and closing them with an interrupted result.
+
+- [#1787](https://github.com/MoonshotAI/kimi-code/pull/1787) [`319001a`](https://github.com/MoonshotAI/kimi-code/commit/319001ae5cde6df383579214a126564b9ed2b114) Thanks [@sailist](https://github.com/sailist)! - web: Remove per-workspace git repo badges and branch labels; branch, PR, and diff status remain shown for the active session.
+
 ## 0.26.0
 
 ### Minor Changes
